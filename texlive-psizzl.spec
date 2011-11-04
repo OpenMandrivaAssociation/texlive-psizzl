@@ -66,6 +66,7 @@ limitations look rather quaint to modern eyes.
 %doc %{_texmfdistdir}/doc/otherformats/psizzl/base/psizzl.doc
 #- source
 %doc %{_texmfdistdir}/source/psizzl/base/aaaread.me
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -76,3 +77,5 @@ limitations look rather quaint to modern eyes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
