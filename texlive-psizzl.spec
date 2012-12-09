@@ -67,3 +67,17 @@ limitations look rather quaint to modern eyes.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.35-2
++ Revision: 755149
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.35-1
++ Revision: 719322
+- texlive-psizzl
+- texlive-psizzl
+- texlive-psizzl
+- texlive-psizzl
+
