@@ -6,7 +6,7 @@
 # catalog-version 0.35
 Name:		texlive-psizzl
 Version:	0.35
-Release:	7
+Release:	8
 Summary:	A TeX format for physics papers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/psizzl
